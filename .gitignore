@@ -1,0 +1,116 @@
+# Build artifacts and directories
+build/
+cmake-build-*/
+devel/
+install/
+*.build
+*.dSYM/
+
+# Compiled Object files
+*.o
+*.lo
+*.slo
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ROS specific
+/msg_gen/
+/srv_gen/
+/msg/*Action.msg
+/msg/*ActionFeedback.msg
+/msg/*ActionGoal.msg
+/msg/*ActionResult.msg
+/msg/*Feedback.msg
+/msg/*Goal.msg
+/msg/*Result.msg
+/msg/_*.py
+/build_isolated/
+/devel_isolated/
+
+# Point cloud data files (large binary/text data)
+*.pcd
+*.ply
+*.las
+*.laz
+pcd*.txt
+*.bag
+*.rosbag
+
+# Generated trajectory and odometry files
+*odom*.txt
+*traj*.txt
+*pose*.txt
+sba.txt
+floam.txt
+
+# Log files
+*.log
+testdisk.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.tox/
+.coverage
+.pytest_cache/
+
+# Temporary and backup files
+*~
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# Output directories
+output/
+results/
+experiments*/
+
+# Configuration files with sensitive paths (keep template versions)
+config/*local*.yaml
+config/*private*.yaml
+
+# Large dataset directories
+datasets/
+data/
+kitti*/
